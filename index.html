@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Gem Gatherer</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="assets/css/normalize.css">
+
+	<!-- Google Fonts CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+
+	<!-- Author CSS -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+	 crossorigin="anonymous">
+</head>
+
+<body>
+
+<!-- Main container -->
+<div class="container text-center p-2 p-lg-4">
+	<!-- Header -->
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="title">Gem Gatherer</h1>
+		</div>
+	</div>
+
+	<!-- Main display -->
+	<div class="row display my-2 my-lg-4">
+		<div class="col-md-7 mb-3">
+			<div class="card instructions">
+				<div class="card-body p-1 p-lg-4">
+					<p class="d-none d-md-block">Click on the gems which have a random value in order to add that value to your score in efforts to match the loot number below.</p>
+					<div class="group">
+						<button class="btn btn-danger mr-4 mr-md-5 reset" type="button">Reset</button>
+						<h4 class="card-title pt-3">Loot Number: <span class="target-score">0</span></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 offset-md-1 mb-3">
+			<div class="card status">
+				<div class="card-body text-left">
+					<p class="card-text">Status: <span class="status-tracker">Playing</span></p>
+					<p class="card-text">Wins: <span class="win-tracker">0</span></p>
+					<p class="card-text">Losses: <span class="loss-tracker">0</span></p>
+					<p class="card-text">Score: <span class="player-score">0</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Image Cards -->
+	<div class="row text-center cards">
+		<div class="card">
+			<img class="img-fluid gem" src="assets/images/blue-crystal.jpg" alt="Blue gem" data-gem="Blue Gem" />
+		</div>
+
+		<div class="card">
+			<img class="img-fluid gem" src="assets/images/yellow-crystal.jpg" alt="Yellow gem" data-gem="Yellow Gem" />
+		</div>
+
+		<div class="card">
+			<img class="img-fluid gem" src="assets/images/purple-crystal.jpg" alt="" data-gem="Purple Gem" />
+		</div>
+
+		<div class="card">
+			<img class="img-fluid gem" src="assets/images/green-crystal.jpg" alt=""  data-gem="Green Gem"/>
+		</div>
+	</div>
+</div>
+
+<!-- JavaScript CDN -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+	crossorigin="anonymous"></script>
+
+<!-- JavaScript Author -->
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
