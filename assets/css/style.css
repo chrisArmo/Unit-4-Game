@@ -13,7 +13,14 @@ body {
 /* Title */
 .title {
     color: #a21dfa;
+    font-size: 1.8em;
     text-shadow: 0 3px 4px rgba(39, 215, 246, 0.7);
+}
+
+@media screen and (min-width: 767px) {
+    .title {
+        font-size: 2.5em;
+    }
 }
 
 /* Cards */
