@@ -1,0 +1,91 @@
+/* Base */
+body {
+    background: url("../images/dark-grey-terrazzo.png");
+    letter-spacing: 1px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Container */
+.container {
+    font-family: "Bitter", serif;
+}
+
+/* Title */
+.title {
+    color: #a21dfa;
+    text-shadow: 0 3px 4px rgba(39, 215, 246, 0.7);
+}
+
+/* Cards */
+.cards {
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.display .card {
+    border: 2px solid #fcb124;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.cards .card {
+    position: relative;
+    width: 30%;
+    min-width: 100px;
+    max-width: 200px;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+.cards .card:active {
+    top: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.cards img {
+    border-radius: 0.2em;
+}
+
+/* Card */
+.card {
+    margin: 0;
+}
+
+/* Card body span */
+.card-body span {
+    color: #dc3545;
+    font-weight: 900;
+}
+
+/* Status */
+.instructions,
+.status {
+    height: 100%;
+}
+
+/* Group */
+.group {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gem borders */
+img[src*="blue"] {
+    border: 2px solid #2c80f4;
+}
+
+img[src*="purple"] {
+    border: 2px solid #7a20f2;
+}
+
+img[src*="yellow"] {
+    border: 2px solid #fcb124;
+}
+
+img[src*="green"] {
+    border: 2px solid #76f627;
+}
